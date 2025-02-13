@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 
 export default function Register() {
+
+
+     const authInfo=useContext(AuthContext)
 
   const handleRegister=(e)=>{
     e.preventDefault();
