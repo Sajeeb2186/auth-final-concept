@@ -11,7 +11,8 @@ import Root from './components/root/Root.jsx';
 import Home from './components/home/Home.jsx';
 import Login from './components/login/Login.jsx';
 import Register from './components/register/Register.jsx';
-import AuthProvider from './provider/AuthProvider.jsx';
+import AuthProvider from './components/AuthProvider/AuthProvider.jsx';
+
 
 const router = createBrowserRouter([
   {

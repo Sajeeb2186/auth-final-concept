@@ -5,6 +5,6 @@ export default function Home() {
 
  
   return (
-    <div> This is Home: { authInfo.name}</div>
+      <h2>this is home </h2>
   )
 }
